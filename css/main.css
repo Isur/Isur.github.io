@@ -6,11 +6,21 @@ a{
     color: white;
 }
 
+.project_list{
+    margin-top:105px;
+}
+
+.project_list p{
+    font-size: xx-large;
+    margin:30px;
+}
+
 .project_list ul{
     color:white;
     margin: 25px;
     font-style: italic;
     font-size: x-large;
+    clear: left;
 }
 
 .project_list ul li{
@@ -20,5 +30,21 @@ a{
 .about_me{
     color: khaki;
     margin: 35px;
+    margin-right: 250px;
     font-style:oblique;
+    font-size:large;
+}
+
+#myPhoto{
+    width:150px;
+    height:150px;
+    float: left;
+}
+
+.photo{
+    position: absolute;
+    margin:auto;
+    right:50px;
+    top: 50px;
+    clear:left;
 }
